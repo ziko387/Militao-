@@ -1,0 +1,80 @@
+.grid-container{
+   display: grid;
+    grid-gap: 10px 10px;
+    grid-template-areas:
+    'navbar navbar navbar navbar navbar navbar'
+    'holon holon holon holon holon holon'
+    'menua menua kolon kolon menub menub '
+    'bolon bolon bolon bolon bolon bolon'
+}
+#jack1{
+ grid-area:navbar ;
+    margin: 20px 20px;
+    grid-gap: 15px;
+}
+#jack2{
+ grid-area:holon ;
+    margin: 20px 20px;
+    grid-gap: 15px 15px;
+    align-items: center;
+    
+}
+#jack3{
+ grid-area:menua ;
+margin: 20px 20px;
+    grid-gap: 15px 15px;
+}
+
+#jack4{
+  grid-area:kolon ;
+    margin-right: auto;
+    grid-gap: 15px 15px;
+    margin-left: auto;
+}
+
+#jack5{
+ grid-area:menub ;
+    margin: 20px 20px;
+    grid-gap: 15px 15px;
+}
+
+#jack6{
+ grid-area:bolon ;
+background-color: crimson;
+    margin: 20px 20px;
+    grid-gap: 15px 15px;
+}
+ul{
+ list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+li{
+ background-color:saddlebrown;
+ margin: 13px 10px;
+    padding: 10px 10px;
+    justify-content: center;
+    cursor: cell;
+    display: flex;
+    border-radius: 13px 10px;
+    align-items: center;
+    text-align: center;
+
+}
+.img-ian{
+  display: block;
+    margin-right: auto;
+    margin-left:auto ;
+
+
+}
+.matipi{
+  background-color: gold;
+  padding: 12px 12px;
+}
+
+
+
+
+
+
